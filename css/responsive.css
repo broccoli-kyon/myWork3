@@ -1,0 +1,32 @@
+﻿@media screen and (min-width:639px) { 
+	.news ul {
+		display: flex; 
+		
+		flex-wrap: wrap;
+	}
+
+	.news-list {
+		width: 25%;
+	}
+	
+ .read-btn {
+ 	width: 20%;
+ } 
+ 
+ .footer-list {
+ 	display: flex;
+ }
+ 
+ .outer-item {
+ 	width:	25%;
+ }
+ 
+ .outer-item h2 > span {
+ 	display: none;
+ } 
+ 
+ .outer-item ul:not(.sns-box) {
+ 	display: block;
+ }
+	                                   
+}
